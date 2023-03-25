@@ -47,7 +47,7 @@ To run the completed Chatbot locally, follow these steps,
 
    `zoom_chatbot=> INSERT INTO chatbot_token (token, expires_on)  VALUES ('', '1');`
 
-2. Add this code to your `.env` file, replacing the `Required` text with your respective [**Development** Zoom Chatbot API credentials](https://marketplace.zoom.us/docs/guides/getting-started/app-types/create-chatbot-app#register) and your [Unsplash Access Key](https://unsplash.com/oauth/applications).
+2. Add this code to your `.env` file, replacing the `Required` text with your respective [**Development** Zoom Chatbot API credentials](https://marketplace.zoom.us/docs/guides/getting-started/app-types/create-chatbot-app#register) and  your OpenAI API Key).
 
    If you followed my instructions on setting up PostgreSQL, don't change the `DATABASE_URL`. If you have setup PostgreSQL before or set it up differently than me reference this `postgres://DBUSERNAME:PASSWORD@SERVER:PORT/DATABASE`.
 
@@ -56,6 +56,8 @@ To run the completed Chatbot locally, follow these steps,
    zoom_client_secret=Required
    zoom_bot_jid=Required
    zoom_verification_token=Required
+   OPENAI_API_KEY=Required
+   OPANAI_CHAT_MODEL=(gpt-3.5-turbo or gpt-4)
    DATABASE_URL=postgres://me:password@localhost:5432/zoom_chatbot
    ```
 
