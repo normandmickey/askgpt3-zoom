@@ -1,15 +1,4 @@
-# Unsplash Chatbot for Zoom
-
-Use of this sample app is subject to our [Terms of Use](https://zoom.us/docs/en-us/zoom_api_license_and_tou.html).
-
-This is a sample Chatbot app using Node.js, PostgreSQL, and the Unsplash API, deployed to Heroku.
-
-![Unsplash Chatbot for Zoom](https://camo.githubusercontent.com/dfc5a89c00049b0468901c781f67fe868aad43871a1e3b239ff6b2493f985e46/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f757365722d636f6e74656e742e73746f706c696768742e696f2f31393830382f31353632313739383531373837)
-
-[To create this Chatbot from scratch, click here to follow the step by step tutorial on our docs.](https://marketplace.zoom.us/docs/guides/chatbots/build-a-chatbot)
-
-To run the completed Chatbot code locally or deploy it to a live server, continue reading below.
-
+# GPT-3 Chatbot for Zoom
 
 
 ## Local/Development Setup
@@ -18,9 +7,9 @@ To run the completed Chatbot locally, follow these steps,
 
 1. In terminal:
 
-   `$ git clone https://github.com/zoom/unsplash-chatbot.git`
+   `$ git clone https://github.com/normandmickey/askgpt3-zoom.git`
 
-   `$ cd unsplash-chatbot`
+   `$ cd askgpt3-zoom`
 
    `$ npm install`
 
@@ -63,7 +52,6 @@ To run the completed Chatbot locally, follow these steps,
    If you followed my instructions on setting up PostgreSQL, don't change the `DATABASE_URL`. If you have setup PostgreSQL before or set it up differently than me reference this `postgres://DBUSERNAME:PASSWORD@SERVER:PORT/DATABASE`.
 
    ```
-   unsplash_access_key=Required
    zoom_client_id=Required
    zoom_client_secret=Required
    zoom_bot_jid=Required
@@ -80,7 +68,7 @@ To run the completed Chatbot locally, follow these steps,
 
 5. Open your ngrok https url in a browser, you should see this,
 
-   `Welcome to the Unsplash Chatbot for Zoom!`
+   `Welcome to the GPT-3 Chatbot for Zoom!`
 
 6. On your App Marketplace Dashboard, add your ngrok https url to your Whitelist URLs (App Credentials Page), **Development** Redirect URL for OAuth (App Credentials Page), and **Development** Bot Endpoint URL (Features Page). Make sure to match the path after your ngrok https url with the express routes in index.js.
 
@@ -95,31 +83,5 @@ To run the completed Chatbot locally, follow these steps,
 
 8. Now that your Chatbot is installed on your Zoom account, go to a Zoom Chat channel and type,
 
-   `/unsplash mountains`
+   `/askgpt3 How many feet in a mile?`
 
-
-## Production Setup
-
-To run the completed Chatbot on a live server, follow these steps,
-
-1. Click the **Deploy to Heroku** Button,
-
-   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-2. Fill in your [**Production** Zoom Chatbot API credentials](https://marketplace.zoom.us/docs/guides/getting-started/app-types/create-chatbot-app#register) and your [Unsplash Access Key](https://unsplash.com/oauth/applications) in the **Config Vars** section.
-
-3. Click **Deploy app**.
-
-4. On your App Marketplace Dashboard, add your Heroku url to your Whitelist URLs (App Credentials Page), **Production** Redirect URL for OAuth (App Credentials Page), and **Production** Bot Endpoint URL (Features Page). Make sure to match the path after your Heroku url with the express routes in index.js.
-
-5. On your App Marketplace Dashboard, go to the **Submit** page and click **Add to Zoom**. After you click the **Authorize** button, you should be taken to your redirect url and see this,
-
-   `Thanks for installing the Unsplash Chatbot for Zoom!`
-
-6. Now that your Chatbot is installed on your Zoom account, go to a Zoom Chat channel and type,
-
-   `/unsplash mountains`
-
-## Need help?
-
-If you're looking for help, try [Developer Support](https://devsupport.zoom.us) or our [Developer Forum](https://devforum.zoom.us). Priority support is also available with [Premier Developer Support](https://zoom.us/docs/en-us/developer-support-plans.html) plans.
