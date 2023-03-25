@@ -85,7 +85,7 @@ app.post('/askgpt3', (req, res) => {
 
   async function askGPT3 (question) {
     const response = await openai.createChatCompletion({
-      model: "gpt-3.5-turbo",
+      model: process.env.OPENAI_CHAT_MODEL,
       messages: [{role: "user", content: question}],
       });
     return response.data.choices[0].message.content;
