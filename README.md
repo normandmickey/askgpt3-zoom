@@ -57,7 +57,7 @@ To run the completed Chatbot locally, follow these steps,
    zoom_bot_jid=Required
    zoom_verification_token=Required
    OPENAI_API_KEY=Required
-   OPANAI_CHAT_MODEL=(gpt-3.5-turbo or gpt-4)
+   OPENAI_CHAT_MODEL=(gpt-3.5-turbo or gpt-4)
    DATABASE_URL=postgres://me:password@localhost:5432/zoom_chatbot
    ```
 
