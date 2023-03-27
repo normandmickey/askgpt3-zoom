@@ -106,7 +106,7 @@ app.post('/askgpt3', (req, res) => {
             'text': chatBody,
           }
         },
-        'user_jid': req.body.payload.toJid,
+        'user_jid': req.body.payload.userJid,
       },
       headers: {
         'Authorization': 'Bearer ' + chatbotToken
