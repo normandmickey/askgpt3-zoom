@@ -1,4 +1,4 @@
-# Chatbot for Zoom using GPT-3 or GPT-4
+# Chatbot for Zoom using ChatGPT (GPT-3.5-Turbo) or GPT-4
 
 
 ## Local/Development Setup
