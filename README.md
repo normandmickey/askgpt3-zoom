@@ -89,5 +89,5 @@ To run the completed Chatbot locally, follow these steps,
    
    
    
- If you need help deploying this app or would like me to install it for you contact me directly at normandmickey@gmail.com or [visit listing on Fiverr](https://www.fiverr.com/normandmickey/build-your-gpt3-or-gpt4-slack-bot?context_referrer=search_gigs&source=top-bar&ref_ctx_id=80b1503ecadb8ca1f46bb1ada17a4d23&pckg_id=1&pos=2&context_type=auto&funnel=80b1503ecadb8ca1f46bb1ada17a4d23&seller_online=true&imp_id=10a5bb14-de82-401f-ac61-a3be470f5524).
+ If you need help deploying this app or would like me to install it for you contact me directly at normandmickey@gmail.com or [visit my listing on Fiverr](https://www.fiverr.com/normandmickey/build-your-gpt3-or-gpt4-slack-bot?context_referrer=search_gigs&source=top-bar&ref_ctx_id=80b1503ecadb8ca1f46bb1ada17a4d23&pckg_id=1&pos=2&context_type=auto&funnel=80b1503ecadb8ca1f46bb1ada17a4d23&seller_online=true&imp_id=10a5bb14-de82-401f-ac61-a3be470f5524).
 
