@@ -86,4 +86,8 @@ To run the completed Chatbot locally, follow these steps,
 8. Now that your Chatbot is installed on your Zoom account, go to a Zoom Chat channel and type,
 
    `/askgpt3 How many feet in a mile?`
+   
+   
+   
+ If you need help deploying this app or would like me to install it for you contact me directly at normandmickey@gmail.com or [visit listing on Fiverr](https://www.fiverr.com/normandmickey/build-your-gpt3-or-gpt4-slack-bot?context_referrer=search_gigs&source=top-bar&ref_ctx_id=80b1503ecadb8ca1f46bb1ada17a4d23&pckg_id=1&pos=2&context_type=auto&funnel=80b1503ecadb8ca1f46bb1ada17a4d23&seller_online=true&imp_id=10a5bb14-de82-401f-ac61-a3be470f5524).
 
